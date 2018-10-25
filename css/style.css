@@ -1,0 +1,146 @@
+body {
+    overflow-x: hidden;
+  }
+
+.navbar .nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #ff80b3 3px solid;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url('/img/crsl3.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('/img/crsl2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('/img/crsl4.jpg');
+    background-size: cover;
+}
+
+section .carousel span i{
+    color: white solid;
+
+}
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('/img/coffee_beans1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url('/img/redvelvet.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -250px;
+    text-align: center;
+    color: #fff;
+}
+
+/* #newsletter {
+    background: #ff1a75;;
+} */
+
+#footer {
+    background: #ff3385;
+}
+
+/* About Page */
+#About-page-header {
+    height: 300px;
+    background: url('/img/coffee_beans1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+/* Service page */
+#service-page-header {
+    height: 300px;
+    background: url('/img/crsl1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#blog-page-header {
+    height: 300px;
+    background: url('/img/coffee_beans.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#contact-page-header {
+    height: 300px;
+    background: url('/img/crsl2.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-top: -50px;
+  }
+  
+  #faq .card {
+    border: #444;
+  }
+  
+  #faq a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #faq .card-body,
+  #faq .card-header {
+    background: #333;
+  }
+  
+  #main-footer {
+    background: #000;
+    color: #fff;
+  }
+  
